@@ -24,6 +24,7 @@ var variants = new string[]
 };
 
 
+
 selection = UI_Helper.AskForSelection(loginVariants, "Pasirinkimai : ");
 
 switch (selection)
@@ -39,7 +40,7 @@ switch (selection)
 
 while (!exit)
 {
-    selection = UI_Helper.AskForSelection(variants, "Veiksmai : ");
+    selection = UI_Helper.AskForSelection(variants, " Veiksmai : ");
 
     switch (selection)
     {
